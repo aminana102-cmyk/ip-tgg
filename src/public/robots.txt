@@ -1,0 +1,54 @@
+# IPTV Prime - Robots.txt Configuration
+# Optimized for search engine crawling and indexing
+
+User-agent: *
+Allow: /
+
+# Allow all main IPTV Prime pages
+Allow: /pricing
+Allow: /channels
+Allow: /about
+Allow: /contact
+Allow: /faq
+Allow: /testimonials
+Allow: /support
+Allow: /blog
+Allow: /terms
+Allow: /privacy
+Allow: /refund
+
+# Disallow any admin or sensitive areas (if they exist in future)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /temp/
+Disallow: /cache/
+
+# Sitemap location for IPTV Prime website
+Sitemap: https://iptvprime.xyz/sitemap.xml
+
+# Crawl-delay (optional - helps with server load)
+Crawl-delay: 1
+
+# Additional directives for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Block any potential scraping bots (optional)
+User-agent: BadBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Host declaration (replace with actual domain)
+Host: iptvprime.xyz

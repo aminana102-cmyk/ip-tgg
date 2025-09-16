@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IPTV Prime Canada - Premium IPTV Service</title>
+  <meta name="description" content="Welcome to IPTV Prime Canada, the #1 choice for high-quality and affordable IPTV services. Enjoy unlimited access to live TV channels, movies, TV series (VOD), and sports in Full HD, Ultra HD, and even 4K quality." />
+  <meta name="keywords" content="IPTV, Prime, Canada, streaming, live TV, VOD, movies, series, sports, 4K, Full HD" />
+  <meta name="author" content="IPTV Prime Canada" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://iptvprime.xyz/" />
+  <meta property="og:title" content="IPTV Prime Canada - Premium IPTV Service" />
+  <meta property="og:description" content="Welcome to IPTV Prime Canada, the #1 choice for high-quality and affordable IPTV services worldwide." />
+  <meta property="og:site_name" content="IPTV Prime Canada" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://iptvprime.xyz/" />
+  <meta property="twitter:title" content="IPTV Prime Canada - Premium IPTV Service" />
+  <meta property="twitter:description" content="Welcome to IPTV Prime Canada, the #1 choice for high-quality and affordable IPTV services worldwide." />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://iptvprime.xyz/" />
+  
+  <!-- Robots -->
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Theme color -->
+  <meta name="theme-color" content="#64d9eb" />
+  
+  <style>
+    /* Loading styles */
+    .loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #0a0a0f;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      transition: opacity 0.3s ease-out;
+    }
+    
+    .loading-spinner {
+      width: 50px;
+      height: 50px;
+      border: 3px solid rgba(100, 217, 235, 0.3);
+      border-radius: 50%;
+      border-top-color: #64d9eb;
+      animation: spin 1s ease-in-out infinite;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    .loading-text {
+      color: #64d9eb;
+      margin-top: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <!-- Loading screen shown until React loads -->
+    <div class="loading-screen" id="loading">
+      <div style="text-align: center;">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading IPTV Prime Canada...</div>
+      </div>
+    </div>
+  </div>
+  
+  <script type="module" src="/src/main.tsx"></script>
+  
+  <script>
+    // Hide loading screen when DOM is ready
+    window.addEventListener('load', function() {
+      const loadingScreen = document.getElementById('loading');
+      if (loadingScreen) {
+        loadingScreen.style.opacity = '0';
+        setTimeout(() => {
+          loadingScreen.style.display = 'none';
+        }, 300);
+      }
+    });
+    
+    // Handle static file routing for robots.txt, sitemap.xml, etc.
+    // This is a fallback for when React Router doesn't handle the route
+    if (window.location.pathname.match(/\.(txt|xml|json)$/)) {
+      // Let the server handle these files naturally
+      window.location.reload();
+    }
+  </script>
+</body>
+</html>

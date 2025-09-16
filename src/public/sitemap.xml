@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- IPTV Prime - Homepage -->
+  <url>
+    <loc>https://iptvprime.xyz/</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- IPTV Prime - Pricing Plans -->
+  <url>
+    <loc>https://iptvprime.xyz/pricing</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- IPTV Prime - Premium Channels -->
+  <url>
+    <loc>https://iptvprime.xyz/channels</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- IPTV Prime - About Us -->
+  <url>
+    <loc>https://iptvprime.xyz/about</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- IPTV Prime - Contact Support -->
+  <url>
+    <loc>https://iptvprime.xyz/contact</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- IPTV Prime - Frequently Asked Questions -->
+  <url>
+    <loc>https://iptvprime.xyz/faq</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- IPTV Prime - Customer Testimonials -->
+  <url>
+    <loc>https://iptvprime.xyz/testimonials</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- IPTV Prime - Technical Support -->
+  <url>
+    <loc>https://iptvprime.xyz/support</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- IPTV Prime - Blog & News -->
+  <url>
+    <loc>https://iptvprime.xyz/blog</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- IPTV Prime - Terms of Service -->
+  <url>
+    <loc>https://iptvprime.xyz/terms</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- IPTV Prime - Privacy Policy -->
+  <url>
+    <loc>https://iptvprime.xyz/privacy</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- IPTV Prime - Refund Policy -->
+  <url>
+    <loc>https://iptvprime.xyz/refund</loc>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
